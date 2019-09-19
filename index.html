@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Kalkulator BMI</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="main">
+            <h1>Sprawdź swoje BMI</h1>
+            <div class="form">
+                <div class="field">
+                    <label>Waga w kg</label>
+                    <input type="text" id="kg" required>
+                </div>
+                <div class="field">
+                    <label>Wzrost w cm</label>
+                    <input type="text" id="cm" required>
+                </div>
+                <div>
+                    <button type="submit" id="submit">Oblicz</button>
+                </div>
+
+            </div>
+            <div class="results">
+                <p>Twoje BMI wynosi: <span id="calculated"></span></p>
+                <p>Twoja waga jest: <span id="result"></span></p>
+            </div>
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
+
